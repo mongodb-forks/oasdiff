@@ -18,60 +18,60 @@ release:
 universal_binaries:
  - replace: true
 
-brews:
- -
-   name: oasdiff
-   homepage: "https://github.com/tufin/oasdiff"
-   tap:
-     owner: tufin
-     name: homebrew-tufin
-   commit_author:
-     name: Reuven Harrison
-     email: rh@tufin.com
+# brews:
+#  -
+#    name: oasdiff
+#    homepage: "https://github.com/tufin/oasdiff"
+#    tap:
+#      owner: tufin
+#      name: homebrew-tufin
+#    commit_author:
+#      name: Reuven Harrison
+#      email: rh@tufin.com
 
-nfpms:
-  # note that this is an array of nfpm configs
-  -
-    # ID of the nfpm config, must be unique.
-    # Defaults to "default".
-    id: oasdiff
+# nfpms:
+#   # note that this is an array of nfpm configs
+#   -
+#     # ID of the nfpm config, must be unique.
+#     # Defaults to "default".
+#     id: oasdiff
 
-    # Name of the package.
-    # Defaults to `ProjectName`.
-    package_name: oasdiff
+#     # Name of the package.
+#     # Defaults to `ProjectName`.
+#     package_name: oasdiff
 
-    # Your app's vendor.
-    # Default is empty.
-    vendor: tufin
+#     # Your app's vendor.
+#     # Default is empty.
+#     vendor: tufin
 
-    # Template to your app's homepage.
-    # Default is empty.
-    homepage: "https://github.com/tufin/oasdiff"
+#     # Template to your app's homepage.
+#     # Default is empty.
+#     homepage: "https://github.com/tufin/oasdiff"
 
-    # Your app's maintainer (probably you).
-    # Default is empty.
-    maintainer: Reuven Harrison <rh@tufin.com>
+#     # Your app's maintainer (probably you).
+#     # Default is empty.
+#     maintainer: Reuven Harrison <rh@tufin.com>
 
-    # Template to your app's description.
-    # Default is empty.
-    description: |-
-      A diff tool for OpenAPI Specification.
+#     # Template to your app's description.
+#     # Default is empty.
+#     description: |-
+#       A diff tool for OpenAPI Specification.
 
-    # Your app's license.
-    # Default is empty.
-    license: Apache 2.0
+#     # Your app's license.
+#     # Default is empty.
+#     license: Apache 2.0
 
-    # Formats to be generated.
-    formats:
-      - apk
-      - deb
-      - rpm
+#     # Formats to be generated.
+#     formats:
+#       - apk
+#       - deb
+#       - rpm
 
-    # Section.
-    section: default
+#     # Section.
+#     section: default
 
-    # Priority.
-    priority: extra
+#     # Priority.
+#     priority: extra
 
 
 checksum:
